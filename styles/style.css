@@ -65,7 +65,7 @@ ol {
   flex-direction: column;
   gap: 26px;
   inline-size: 399px;
-  block-size: 534px;
+  min-block-size: 534px;
 }
 
 .result {
@@ -96,7 +96,7 @@ ol {
   inline-size: 399px;
   block-size: 298px;
   overflow-y: auto;
-  overflow-x: hidden;
+  scrollbar-gutter: stable;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -146,7 +146,7 @@ ol {
   line-height: 70.5px;
   text-transform: uppercase;
   inline-size: 399px;
-  block-size: 210px;
+  min-block-size: 210px;
 }
 
 .content__accent {
