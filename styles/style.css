@@ -63,9 +63,9 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
   gap: 26px;
-  block-size: 100%;
+  inline-size: 399px;
+  block-size: 534px;
 }
 
 .result {
@@ -93,8 +93,10 @@ ol {
 
 .content__list-container {
   position: relative;
+  inline-size: 399px;
   block-size: 298px;
   overflow-y: auto;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -143,6 +145,8 @@ ol {
   font-weight: 700;
   line-height: 70.5px;
   text-transform: uppercase;
+  inline-size: 399px;
+  block-size: 210px;
 }
 
 .content__accent {
@@ -267,12 +271,18 @@ ol {
 }
 
 .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 700;
+  line-height: 1;
   color: #fff;
   background-color: transparent;
   border: 1px solid #fff;
+  padding: 0;
+  min-block-size: auto;
   cursor: pointer;
 }
 
@@ -296,16 +306,21 @@ ol {
 .search-form__submit-button {
   inline-size: 194px;
   block-size: 34px;
+  min-block-size: 34px;
+  max-block-size: 34px;
   align-self: flex-end;
 }
 
 .more-button {
-  inline-size: 100%;
+  inline-size: 390px;
   block-size: 34px;
+  min-block-size: 34px;
+  max-block-size: 34px;
 }
 
 .content__list-item {
-  padding-inline: 3px;
+  inline-size: 399px;
+  block-size: 103px;
 }
 
 .content__card-link_current {
