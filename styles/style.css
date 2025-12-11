@@ -55,7 +55,6 @@ ol {
 
 .content {
   display: flex;
-  align-items: flex-end;
   gap: 30px;
   inline-size: 1140px;
 }
@@ -65,7 +64,6 @@ ol {
   flex-direction: column;
   gap: 26px;
   inline-size: 399px;
-  min-block-size: 534px;
 }
 
 .result {
@@ -73,6 +71,7 @@ ol {
   flex-direction: column;
   gap: 16px;
   inline-size: 711px;
+  align-self: flex-end;
 }
 
 .search-form {
@@ -93,10 +92,9 @@ ol {
 
 .content__list-container {
   position: relative;
-  inline-size: 399px;
+  inline-size: 403px;
   block-size: 298px;
   overflow-y: auto;
-  scrollbar-gutter: stable;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -146,7 +144,6 @@ ol {
   line-height: 70.5px;
   text-transform: uppercase;
   inline-size: 399px;
-  min-block-size: 210px;
 }
 
 .content__accent {
